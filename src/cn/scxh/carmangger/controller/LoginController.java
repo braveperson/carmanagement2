@@ -13,7 +13,7 @@ public class LoginController {
 	
 	@RequestMapping("/main")
 	public String main(String userName,String passWord,Model model){
-		System.out.println("11111111111");
+		System.out.println("2222222");
 		if("admin".equals(userName) && "admin".equals(passWord)){
 			return "main";
 		}else{
